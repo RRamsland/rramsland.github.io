@@ -17,7 +17,7 @@ layout: post
 - Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 - Aliquam tincidunt mauris eu risus.
  
-[cat gif](http://i.imgur.com/v1gUYem.gif)
+![cat gif](http://i.imgur.com/v1gUYem.gif)
  
 <pre><code>
 #header h1 a { 
