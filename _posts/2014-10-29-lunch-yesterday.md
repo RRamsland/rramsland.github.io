@@ -5,4 +5,4 @@ image: http://secretmenus.com/wp-content/uploads/2014/03/chipotle-cover-photo.jp
 ---
 
 I had Chipotle
-{{ image }}
+<img src="{{ image }}"/>
