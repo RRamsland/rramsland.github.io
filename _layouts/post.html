@@ -1,7 +1,8 @@
 {% include head.html %}
 {% if page.image %}
   <img src="{{page.image}}" alt="">
-<% endif %}
+  {% else %}Nope, no image
+{% endif %}
 <h1>Blog post: {{page.title}}</h1>
 {{ content }}
 
