@@ -111,7 +111,7 @@ small, .font_small {font-size: 0.8em;}
 {
 	color:cyan;
 }
-nav-link.active{
+.nav-link.active{
 	background:skyblue;
 }
 .main-content.first-child
