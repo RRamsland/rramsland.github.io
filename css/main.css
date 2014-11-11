@@ -105,7 +105,8 @@ small, .font_small {font-size: 0.8em;}
 {
 	text-decoration:none;
 	color:#FAFAFA;
-	
+	border-radius: 6px;
+	padding: 1px 8px;
 }
 .nav-link li
 {
@@ -116,7 +117,7 @@ small, .font_small {font-size: 0.8em;}
 	background:#567991;
 }
 .nav-link.active{
-	background:skyblue;
+	background:#2E5775;
 }
 .main-content.first-child
 {
