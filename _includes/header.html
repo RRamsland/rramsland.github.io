@@ -3,10 +3,11 @@
         <div class="site-title">{{ site.title }}</div><!--Logo/-->
         <nav class="navbar">
             <ul class="header-nav">
-                <li><a class="nav-link" href="#">Blog</a></li>
-                <li><a class="nav-link" href="#">About me</a></li>
-                <li><a class="nav-link" href="#">Projects</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
+                {% for nav in site.pages %}
+                  {% if nav.title %}
+                    <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
             </ul>
         </nav>
     </div>
