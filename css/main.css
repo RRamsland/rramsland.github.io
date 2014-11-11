@@ -109,7 +109,10 @@ small, .font_small {font-size: 0.8em;}
 }
 .header-nav li:hover
 {
-	background-color:blue;
+	color:cyan;
+}
+nav-link.active{
+	background:skyblue;
 }
 .main-content.first-child
 {
