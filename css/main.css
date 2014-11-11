@@ -107,6 +107,10 @@ small, .font_small {font-size: 0.8em;}
 	color:#FAFAFA;
 	
 }
+.header-nav li
+{
+	border-radius:.5em;
+}
 .header-nav li:hover
 {
 	color:cyan;
