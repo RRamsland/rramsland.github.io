@@ -111,7 +111,7 @@ small, .font_small {font-size: 0.8em;}
 {
 	border-radius:.5em;
 }
-.header-nav li:hover
+.header-nav:hover
 {
 	color:#567991;
 }
