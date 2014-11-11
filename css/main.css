@@ -107,13 +107,13 @@ small, .font_small {font-size: 0.8em;}
 	color:#FAFAFA;
 	
 }
-.header-nav li
+.nav-link li
 {
 	border-radius:.5em;
 }
-.header-nav:hover
+.nav-link:hover
 {
-	color:#567991;
+	background:#567991;
 }
 .nav-link.active{
 	background:skyblue;
