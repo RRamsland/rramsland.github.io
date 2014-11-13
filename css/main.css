@@ -108,6 +108,10 @@ small, .font_small {font-size: 0.8em;}
 	border-radius: 6px;
 	padding: 1px 8px;
 }
+.nav-link
+{
+	transition: all .2s ease;
+}
 .nav-link li
 {
 	border-radius:.5em;
