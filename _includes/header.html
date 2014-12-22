@@ -1,13 +1,14 @@
-<header class="site-header cf">
+<header class="site-header cf" role="banner">
     <div class="container">
-        <a class="site-title" href="{{ site.url }}">{{ site.title }}</a><!--Logo/-->
-        <nav class="navbar">
+        <a class="site-title" href="{{ site.url }}"><img src="/images/" alt="logo"></a>
+        <img class="hamburger" src="/images/hamburger.png" alt="Menu Button">
+        <nav class="navbar" role="navigation">
             <ul class="header-nav">
-                {% for nav in site.pages %}
-                  {% if nav.title %}
-                    <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
+                <li><a class="nav-link" href="{{ site.url}}/One">One</a></li>
+                <li><a class="nav-link" href="{{ site.url}}/Two">Two</a></li>
+                <li><a class="nav-link" href="{{ site.url}}/Three">Three</a></li>
+                <li><a class="nav-link" href="{{ site.url}}/Four/">Four</a></li>
+                <li><a class="nav-link" href="{{ site.url}}/Five/">Five</a></li>
             </ul>
         </nav>
     </div>
