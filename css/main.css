@@ -95,7 +95,6 @@ small, .font_small {font-size: 0.8em;}
 	list-style:none;
 	margin:0;
 	padding:0;
-	margin-bottom:10px;
 }
 .header-nav li
 {
@@ -123,6 +122,9 @@ small, .font_small {font-size: 0.8em;}
 }
 .nav-link.active{
 	background:#2E5775;
+}
+.hamburger{
+	display:none;
 }
 .main-content.first-child
 {
