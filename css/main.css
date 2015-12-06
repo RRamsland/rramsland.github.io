@@ -40,8 +40,11 @@ text-decoration: none;
 display: block;
 }
 
-.hamburger {
-display: none;
+.menuButton {
+height: 26px;
+background: lightgray;
+text-align: center;
+display:none;
 }
 
 .navbar {
@@ -121,6 +124,8 @@ margin: 15px auto;
 background: lightgray;
 overflow: hidden;
 transition: .4s;
+box-shadow: 0 0 3px rgb(144, 144, 144);
+border-radius: 5px;
 }
 
 .artProject {
@@ -132,11 +137,19 @@ float: left;
 margin: 5px;
 position: relative;
 transition: .4s;
+box-shadow: 0 0 3px rgb(144, 144, 144);
 }
 
-img.artProjectThumb {
+.artProject:hover {
+box-shadow: 0 0 6px rgb(0, 0, 0);
+cursor: pointer;
+}
+
+.artProjectThumb {
 width: 100%;
 height: 100%;
+background-position: center;
+background-size: cover;
 }
 
 h2.artProjectTitle {
@@ -146,7 +159,145 @@ padding: 0;
 margin: 0;
 text-align: center;
 left: 75px;
+display:none;
 }
+#art1{
+	background: url("/Art/A Glance Through the Flames.jpg") center /cover;
+}
+#art2{
+	background: url("/Art/Alone.jpg") center /cover;
+}
+#art3{
+	background: url("/Art/Another Rainy Day.jpg") center /cover;
+}
+#art4{
+	background: url("/Art/Cant think of a clever title.jpg") center /cover;
+}
+#art5{
+	background: url("/Art/Dive.jpg") center /cover;
+}
+#art6{
+	background: url("/Art/Drawn To Life.jpg") center /cover;
+}
+#art7{
+	background: url("/Art/Eye of the Storm.jpg") center /cover;
+}
+#art8{
+	background: url("/Art/Fly.jpg") center /cover;
+}
+#art9{
+	background: url("/Art/I See Fire.jpg") center /cover;
+}
+#art10{
+	background: url("/Art/Ice & Fire.jpg") center /cover;
+}
+#art11{
+	background: url("/Art/Kate.png") center /cover;
+}
+#art12{
+	background: url("/Art/Leaking.jpg") center /cover;
+}
+#art13{
+	background: url("/Art/Leaking.jpg") center /cover;
+}
+#art14{
+	background: url("/Art/Let it Go.jpg") center /cover;
+}
+#art15{
+	background: url("/Art/Lone Wolf.jpg") center /cover;
+}
+#art16{
+	background: url("/Art/Long Way From Home.jpg") center /cover;
+}
+#art17{
+	background: url("/Art/Look to the Stars.jpg") center /cover;
+}
+#art18{
+	background: url("/Art/Magic Touch.jpg") center /cover;
+}
+#art19{
+	background: url("/Art/Make A Wish.jpg") center /cover;
+}
+#art20{
+	background: url("/Art/Mist.jpg") center /cover;
+}
+#art21{
+	background: url("/Art/Mistakes.jpg") center /cover;
+}
+#art22{
+	background: url("/Art/Ours to Explore.jpg") center /cover;
+}
+#art23{
+	background: url("/Art/Power.jpg") center /cover;
+}
+#art24{
+	background: url("/Art/PTSD.jpg") center /cover;
+}
+#art25{
+	background: url("/Art/Run.jpg") center /cover;
+}
+#art26{
+	background: url("/Art/Say My Name.jpg") center /cover;
+}
+#art27{
+	background: url("/Art/Shark Week.jpg") center /cover;
+}
+#art28{
+	background: url("/Art/Space.jpg") center /cover;
+}
+#art29{
+	background: url("/Art/Spirit Animal.jpg") center /cover;
+}
+#art30{
+	background: url("/Art/stolt norsk.jpg") center /cover;
+}
+#art31{
+	background: url("/Art/Stormy Seas.jpg") center /cover;
+}
+#art32{
+	background: url("/Art/Survive.jpg") center /cover;
+}
+#art33{
+	background: url("/Art/Taking Over.jpg") center /cover;
+}
+#art34{
+	background: url("/Art/The Fields of Time.jpg") center /cover;
+}
+#art35{
+	background: url("/Art/The Journey.jpg") center /cover;
+}
+#art36{
+	background: url("/Art/The Siren and the Sea.jpg") center /cover;
+}
+#art37{
+	background: url("/Art/The Stark Knight.jpg") center /cover;
+}
+#art38{
+	background: url("/Art/The Storm.jpg") center /cover;
+}
+#art39{
+	background: url("/Art/Through the Fields.jpg") center /cover;
+}
+#art40{
+	background: url("/Art/Together We Go.jpg") center /cover;
+}
+#art41{
+	background: url("/Art/Wanderer.jpg") center /cover;
+}
+#art42{
+	background: url("/Art/Watching.jpg") center /cover;
+}
+
+.fadeBack {
+width: 100%;
+height: 100%;
+overflow: hidden;
+background: rgba(47, 47, 47, 0.75);
+position: fixed;
+z-index: 10000;
+display: none;
+}
+
 @media(max-width: 907px){
 	.artGallery{
 		max-width:630px;
@@ -168,16 +319,32 @@ left: 75px;
 	.artProjectTitle{
 		left: 52.5px !important;
 	}
+	.main-content .container {
+		padding: 0px 12px;
+	}
 }
 @media(max-width: 500px){
+	.menuButton{
+		display:block;
+	}
+	.menuButton:hover{
+		cursor:pointer;
+	}
 	.navbar{
 		background: rgb(80, 131, 168);
 		box-shadow: none;
+		margin-top: 0;
+		display:none;
 	}
 	.header-nav li{
 		display:block;
 		width:100%;
 		border: 1px solid rgb(187, 187, 187);
+	}
+}
+@media(max-width: 500px){
+	.navbar{
+		display:block;
 	}
 }
 
