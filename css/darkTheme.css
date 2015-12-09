@@ -1,0 +1,39 @@
+body{
+	background: rgb(63, 63, 63);
+	color:white;
+}
+
+.site-title{
+	color:white;
+}
+.artGallery{
+	background: dimgrey;
+}
+
+.artProject:hover {
+box-shadow: 0 0 12px rgb(0, 236, 255);
+}
+
+footer{
+	background: #265574;
+}
+
+.menuButton{
+	background: dimgrey;
+}
+
+.header-nav li a{
+	background: #2D77A9;
+}
+
+.nav-link:hover {
+background: #246693;
+}
+
+.header-nav li{
+	border-left: 1px solid rgb(0, 158, 255);
+}
+
+.header-nav li:first-child{
+	border-left: none;
+}
