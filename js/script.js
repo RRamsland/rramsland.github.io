@@ -79,7 +79,7 @@ $(document).ready(function(){
                 keys.push( e.keyCode );
                 if ( keys.toString().indexOf( dark ) >= 0 ){
  					
-                	$('<link>').appendTo('head').attr({type : 'text/css', rel : 'stylesheet'}).attr('href', '/darkTheme.css');
+                	$('<link>').appendTo('head').attr({type : 'text/css', rel : 'stylesheet'}).attr('href', '/css/darkTheme.css');
 
                     keys = [];
                 }

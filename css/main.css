@@ -12,13 +12,14 @@ box-sizing: border-box;
 }
 
 .container {
-max-width: 1000px;
+/*max-width: 1000px;*/
 margin: 0 auto;
 overflow: hidden;
 }
 
 h1 {
 text-align: center;
+font-weight: 500;
 }
 
 .main-content .container {
@@ -80,7 +81,7 @@ transition: .4s;
 }
 
 .nav-link:hover {
-background: #567991;
+background: #2D77A9;
 }
 
 .slider {
@@ -118,7 +119,7 @@ box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
 /*Art Page*/
 .artGallery {
 width: 100%;
-max-width: 840px;
+max-width: 1050px;
 height: auto;
 margin: 15px auto;
 background: lightgray;
@@ -162,140 +163,162 @@ left: 75px;
 display:none;
 }
 #art1{
-	background: url("/Art/A Glance Through the Flames.jpg") center /cover;
+	background: url("/Art-Thumbs/A Glance Through the Flames.jpg") center /cover;
 }
 #art2{
-	background: url("/Art/Alone.jpg") center /cover;
+	background: url("/Art-Thumbs/Alone.jpg") center /cover;
 }
 #art3{
-	background: url("/Art/Another Rainy Day.jpg") center /cover;
+	background: url("/Art-Thumbs/Another Rainy Day.jpg") center /cover;
 }
 #art4{
-	background: url("/Art/Cant think of a clever title.jpg") center /cover;
+	background: url("/Art-Thumbs/Cant think of a clever title.jpg") center /cover;
 }
 #art5{
-	background: url("/Art/Dive.jpg") center /cover;
+	background: url("/Art-Thumbs/Dive.jpg") center /cover;
 }
 #art6{
-	background: url("/Art/Drawn To Life.jpg") center /cover;
+	background: url("/Art-Thumbs/Drawn To Life.jpg") center /cover;
 }
 #art7{
-	background: url("/Art/Eye of the Storm.jpg") center /cover;
+	background: url("/Art-Thumbs/Eye of the Storm.jpg") center /cover;
 }
 #art8{
-	background: url("/Art/Fly.jpg") center /cover;
+	background: url("/Art-Thumbs/Fly.jpg") center /cover;
 }
 #art9{
-	background: url("/Art/I See Fire.jpg") center /cover;
+	background: url("/Art-Thumbs/I See Fire.jpg") center /cover;
 }
 #art10{
-	background: url("/Art/Ice & Fire.jpg") center /cover;
+	background: url("/Art-Thumbs/Ice & Fire.jpg") center /cover;
 }
 #art11{
-	background: url("/Art/Kate.png") center /cover;
+	background: url("/Art-Thumbs/Kate.jpg") center /cover;
 }
 #art12{
-	background: url("/Art/Leaking.jpg") center /cover;
+	background: url("/Art-Thumbs/Leaking.jpg") center /cover;
 }
 #art13{
-	background: url("/Art/Leaking.jpg") center /cover;
+	background: url("/Art-Thumbs/Let it Go.jpg") center /cover;
 }
 #art14{
-	background: url("/Art/Let it Go.jpg") center /cover;
+	background: url("/Art-Thumbs/Lone Wolf.jpg") center /cover;
 }
 #art15{
-	background: url("/Art/Lone Wolf.jpg") center /cover;
+	background: url("/Art-Thumbs/Long Way From Home.jpg") center /cover;
 }
 #art16{
-	background: url("/Art/Long Way From Home.jpg") center /cover;
+	background: url("/Art-Thumbs/Look to the Stars.jpg") center /cover;
 }
 #art17{
-	background: url("/Art/Look to the Stars.jpg") center /cover;
+	background: url("/Art-Thumbs/Magic Touch.jpg") center /cover;
 }
 #art18{
-	background: url("/Art/Magic Touch.jpg") center /cover;
+	background: url("/Art-Thumbs/Make A Wish.jpg") center /cover;
 }
 #art19{
-	background: url("/Art/Make A Wish.jpg") center /cover;
+	background: url("/Art-Thumbs/Mist.jpg") center /cover;
 }
 #art20{
-	background: url("/Art/Mist.jpg") center /cover;
+	background: url("/Art-Thumbs/Mistakes.jpg") center /cover;
 }
 #art21{
-	background: url("/Art/Mistakes.jpg") center /cover;
+	background: url("/Art-Thumbs/Ours to Explore.jpg") center /cover;
 }
 #art22{
-	background: url("/Art/Ours to Explore.jpg") center /cover;
+	background: url("/Art-Thumbs/Power.jpg") center /cover;
 }
 #art23{
-	background: url("/Art/Power.jpg") center /cover;
+	background: url("/Art-Thumbs/PTSD.jpg") center /cover;
 }
 #art24{
-	background: url("/Art/PTSD.jpg") center /cover;
+	background: url("/Art-Thumbs/Run.jpg") center /cover;
 }
 #art25{
-	background: url("/Art/Run.jpg") center /cover;
+	background: url("/Art-Thumbs/Say My Name.jpg") center /cover;
 }
 #art26{
-	background: url("/Art/Say My Name.jpg") center /cover;
+	background: url("/Art-Thumbs/Shark Week.jpg") center /cover;
 }
 #art27{
-	background: url("/Art/Shark Week.jpg") center /cover;
+	background: url("/Art-Thumbs/Space.jpg") center /cover;
 }
 #art28{
-	background: url("/Art/Space.jpg") center /cover;
+	background: url("/Art-Thumbs/Spirit Animal.jpg") center /cover;
 }
 #art29{
-	background: url("/Art/Spirit Animal.jpg") center /cover;
+	background: url("/Art-Thumbs/stolt norsk.jpg") center /cover;
 }
 #art30{
-	background: url("/Art/stolt norsk.jpg") center /cover;
+	background: url("/Art-Thumbs/Stormy Seas.jpg") center /cover;
 }
 #art31{
-	background: url("/Art/Stormy Seas.jpg") center /cover;
+	background: url("/Art-Thumbs/Survive.jpg") center /cover;
 }
 #art32{
-	background: url("/Art/Survive.jpg") center /cover;
+	background: url("/Art-Thumbs/Taking Over.jpg") center /cover;
 }
 #art33{
-	background: url("/Art/Taking Over.jpg") center /cover;
+	background: url("/Art-Thumbs/The Fields of Time.jpg") center /cover;
 }
 #art34{
-	background: url("/Art/The Fields of Time.jpg") center /cover;
+	background: url("/Art-Thumbs/The Journey.jpg") center /cover;
 }
 #art35{
-	background: url("/Art/The Journey.jpg") center /cover;
+	background: url("/Art-Thumbs/The Siren and the Sea.jpg") center /cover;
 }
 #art36{
-	background: url("/Art/The Siren and the Sea.jpg") center /cover;
+	background: url("/Art-Thumbs/The Stark Knight.jpg") center /cover;
 }
 #art37{
-	background: url("/Art/The Stark Knight.jpg") center /cover;
+	background: url("/Art-Thumbs/The Storm.jpg") center /cover;
 }
 #art38{
-	background: url("/Art/The Storm.jpg") center /cover;
+	background: url("/Art-Thumbs/Through the Fields.jpg") center /cover;
 }
 #art39{
-	background: url("/Art/Through the Fields.jpg") center /cover;
+	background: url("/Art-Thumbs/Together We Go.jpg") center /cover;
 }
 #art40{
-	background: url("/Art/Together We Go.jpg") center /cover;
+	background: url("/Art-Thumbs/Wanderer.jpg") center /cover;
 }
 #art41{
-	background: url("/Art/Wanderer.jpg") center /cover;
-}
-#art42{
-	background: url("/Art/Watching.jpg") center /cover;
+	background: url("/Art-Thumbs/Watching.jpg") center /cover;
 }
 
 .fadeBack {
 width: 100%;
 height: 100%;
 overflow: hidden;
-background: rgba(47, 47, 47, 0.75);
+background: rgba(47, 47, 47, 0.9);
 position: fixed;
 z-index: 10000;
 display: none;
+}
+
+.FullView{
+	position: fixed;
+	z-index: 10000;
+	top: 5%;
+	left: 2.5%;
+	max-width: 95%;
+	height: 90%;
+	background-repeat: no-repeat  !important;
+	background-size: contain !important;
+	background-position: center !important;
+}
+.hideBack{
+	background:none;
+}
+
+.secret{
+	display:none;
+}
+
+@media(max-width: 1120px){
+	.artGallery{
+		max-width:840px;
+	}
 }
 
 @media(max-width: 907px){
