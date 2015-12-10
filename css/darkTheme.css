@@ -1,5 +1,5 @@
 body{
-	background: rgb(63, 63, 63);
+	background: rgb(29, 29, 29);
 	color:white;
 }
 
@@ -7,7 +7,7 @@ body{
 	color:white;
 }
 .artGallery{
-	background: dimgrey;
+	background: #292929;
 }
 
 .artProject:hover {
