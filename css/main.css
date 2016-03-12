@@ -118,24 +118,21 @@ box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
 
 /*Art Page*/
 .artGallery {
-width: 100%;
-max-width: 1050px;
 height: auto;
 margin: 15px auto;
-background: lightgray;
 overflow: hidden;
 transition: .4s;
-box-shadow: 0 0 3px rgb(144, 144, 144);
 border-radius: 5px;
+max-width: :100%;
+text-align:center;
 }
 
 .artProject {
-display: block;
+display: inline-block;
 width: 200px;
 height: 175px;
 background: gray;
-float: left;
-margin: 5px;
+margin: 3px;
 position: relative;
 transition: .4s;
 box-shadow: 0 0 3px rgb(144, 144, 144);
@@ -317,7 +314,7 @@ display: none;
 .secret{
 	display:none;
 }
-
+/*
 @media(max-width: 1120px){
 	.artGallery{
 		max-width:840px;
@@ -348,7 +345,7 @@ display: none;
 	.main-content .container {
 		padding: 0px 12px;
 	}
-}
+}*/
 @media(max-width: 500px){
 	.menuButton{
 		display:block;
