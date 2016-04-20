@@ -50,7 +50,8 @@ $(document).ready(function(){
 var fullScreen;
 
     $('.artThumb').click(function(){
-        fullScreen = $(this).attr('src');
+        fullScreen = $(this).attr('src').replace('Art-Thumbs','Art');
+
         $(".fullImage").attr('src',fullScreen);
         $(".contentFade").show();
         $(".fullImageContainer").show();
