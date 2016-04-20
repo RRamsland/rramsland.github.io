@@ -395,9 +395,37 @@ display: none;
   height: auto;
 }
 
+.contentFade {
+    position: absolute;
+    background: black;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
 
+}
 
+.fullImageContainer {
+    background: gray;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    z-index: 6;
+    margin: 0 auto;
+    left: 5%;
+    top: 5%;
+}
 
+.fullImage{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
 
 
 
