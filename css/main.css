@@ -184,7 +184,7 @@ background-position: center;
 background-size: cover;
 }
 
-h2.artProjectTitle {
+.artProjectTitle {
 position: absolute;
 bottom: 0;
 padding: 0;
@@ -348,6 +348,44 @@ display: none;
 .secret{
 	display:none;
 }
+
+
+
+
+
+/*Art Test Page*/
+
+.artThumbContainer{
+	display: inline-block;
+	width: 200px;
+	height: 175px;
+	background: gray;
+	margin: 3px;
+	position: relative;
+	transition: .4s;
+	box-shadow: 0 0 3px rgb(144, 144, 144);
+	opacity: .85;
+}
+
+.artThumbContainer:hover {
+	box-shadow: 0 0 6px rgb(0, 0, 0);
+	cursor: pointer;
+	opacity: 1;
+}
+
+.artThumb{
+	
+}
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width: 904px){
 	.artProject{
