@@ -403,12 +403,12 @@ display: none;
 }
 
 .fullImageContainer {
-    width: 90%;
+    width: 95%;
     height: 90%;
     position: fixed;
     z-index: 6;
     margin: 0 auto;
-    left: 5%;
+    left: 2.5%;
     top: 5%;
     display:none;
 }
