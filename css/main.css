@@ -379,7 +379,7 @@ display: none;
   position: relative;
   overflow: hidden;
 }
-.artThumbContainer img {
+.artThumb{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -389,6 +389,7 @@ display: none;
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
+
 .portrait {
   width: 100%;
   height: auto;
