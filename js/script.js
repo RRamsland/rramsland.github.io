@@ -59,7 +59,10 @@ var fullScreen;
     });
 
 
-
+    $('.contentFade').click(function(){
+        $('.fullImageContainer').hide();
+        $(".contentFade").hide();
+    });
 
 
 
