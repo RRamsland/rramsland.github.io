@@ -396,7 +396,7 @@ display: none;
 }
 
 .contentFade {
-    position: absolute;
+    position: fixed;
     background: black;
     opacity: .8;
     width: 100%;
@@ -408,7 +408,7 @@ display: none;
 .fullImageContainer {
     width: 90%;
     height: 90%;
-    position: absolute;
+    position: fixed;
     z-index: 6;
     margin: 0 auto;
     left: 5%;
