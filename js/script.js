@@ -13,24 +13,24 @@ $(document).ready(function(){
 		var thumbImage = $(this).css('background-image');
         var FullImage = thumbImage.replace('Art-Thumbs', 'Art');
         
-    if ($(this).hasClass('FullView')) 
-    {
-        $(this).height($(this).find('.artProjectThumb').height());
-        $(this).removeClass('FullView');
-        $(".fadeBack").hide();
-    } 
-  else {
-        var artID ="#"+$(this).attr('id'); 
-        $(artID).css('background-image',FullImage);
-		$(artID).on('load', function(){
-			alert("Image Loaded");
-		});
+        if ($(this).hasClass('FullView')) 
+        {
+            $(this).height($(this).find('.artProjectThumb').height());
+            $(this).removeClass('FullView');
+            $(".fadeBack").hide();
+        } 
+        else {
+            var artID ="#"+$(this).attr('id'); 
+            $(artID).css('background-image',FullImage);
+    		$(artID).on('load', function(){
+    			alert("Image Loaded");
+    		});
 
-        $(this).height('');
-        $(this).addClass('FullView');
-        $(".fadeBack").show();
+            $(this).height('');
+            $(this).addClass('FullView');
+            $(".fadeBack").show();
 
-        
+            
         }
 	});
 
@@ -45,5 +45,26 @@ $(document).ready(function(){
             $(".fadeBack").hide();
         }
 	});
+
+
+
+
+    $('.artThumb').click(function(){
+        alert("Clickable");
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });
