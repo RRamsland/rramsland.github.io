@@ -50,7 +50,7 @@ $(document).ready(function(){
 
 
     $('.artThumb').click(function(){
-        alert("Clickable");
+        alert($(this).attr('src'));
 
     });
 
