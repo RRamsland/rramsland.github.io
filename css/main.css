@@ -390,10 +390,7 @@ display: none;
           transform: translate(-50%,-50%);
 }
 
-.portrait {
-  width: 100%;
-  height: auto;
-}
+
 
 .contentFade {
     position: fixed;
@@ -427,7 +424,10 @@ display: none;
           transform: translate(-50%,-50%);
 }
 
-
+.portrait {
+  width: 100%;
+  height: auto;
+}
 
 
 @media(max-width: 904px){
