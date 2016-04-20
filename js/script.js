@@ -47,10 +47,13 @@ $(document).ready(function(){
 	});
 
 
-
+var fullScreen;
 
     $('.artThumb').click(function(){
-        alert($(this).attr('src'));
+        fullScreen = $(this).attr('src');
+        $(".fullImage").attr('src',fullScreen);
+        $(".contentFade").show();
+        $(".fullImageContainer").show();
 
     });
 
