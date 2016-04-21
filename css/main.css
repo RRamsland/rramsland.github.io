@@ -376,7 +376,6 @@ display: none;
 .artThumbContainer {
   position: relative;
   overflow: hidden;
-  opacity: .85;
 }
 .artThumb{
   position: absolute;
@@ -384,6 +383,7 @@ display: none;
   top: 50%;
   height: 100%;
   width: auto;
+  opacity: .85;
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
