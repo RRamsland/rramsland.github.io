@@ -61,9 +61,16 @@ var fullScreen;
         $(".fullImage").show();
     });
 
-    $('.contentFade').click(function(){
+    function exitFullscreen(){
         $('.fullImage').hide();
         $(".contentFade").hide();
+    }
+
+    $('.fullImage').click(function(){
+        exitFullscreen()
+    });
+    $('.contentFade').click(function(){
+        exitFullscreen()
     });
 
 
