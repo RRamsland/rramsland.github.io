@@ -56,7 +56,7 @@ var fullScreen;
         fullScreen = $(this).attr('src').replace('Art-Thumbs','Art');
 
         //$(".fullImage").attr('src',fullScreen);
-        $(".fullImage").css('background','rgba(0, 0, 0, 0) url("http://rramsland.github.io'&fullScreen&'") no-repeat scroll 50% 50% / contain padding-box border-box');
+        $(".fullImage").css('background','url("http://rramsland.github.io' + fullScreen + '") no-repeat scroll 50% 50% / contain padding-box border-box');
         $(".contentFade").show();
         $(".fullImageContainer").show();
     });
