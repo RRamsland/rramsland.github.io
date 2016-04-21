@@ -404,26 +404,21 @@ display: none;
     display:none;
 }
 
-.fullImageContainer {
-    width: 95%;
+.fullImage{
+    
+    width: 100%;
+    max-width: 95%;
     height: 90%;
     position: fixed;
     z-index: 6;
     margin: 0 auto;
     left: 2.5%;
     top: 5%;
-    display:none;
-}
-
-.fullImage{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+    display: none;
+    background: url("");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .portrait {
