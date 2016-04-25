@@ -58,10 +58,7 @@ var fullScreen;
         //$(".fullImage").attr('src',fullScreen);
         $(".fullImage").css('background','url("http://rramsland.github.io' + fullScreen + '") no-repeat scroll 50% 50% / contain padding-box border-box');
         $(".contentFade").show();
-        
-        $(".fullImage").load(function() {
-            $(".fullImage").slideDown();
-        });
+        $(".fullImage").slideDown();
     });
 
     function exitFullscreen(){
