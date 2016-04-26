@@ -42,10 +42,20 @@ display: block;
 }
 
 .menuButton {
-height: 26px;
-background: lightgray;
-text-align: center;
-display:none;
+	display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: #E1E1E1;
+    text-align: center;
+    cursor:pointer;
+    display: none;
 }
 
 .navbar {
@@ -494,9 +504,6 @@ display: none;
 @media(max-width: 500px){
 	.menuButton{
 		display:block;
-	}
-	.menuButton:hover{
-		cursor:pointer;
 	}
 	.navbar{
 		background: rgb(80, 131, 168);
