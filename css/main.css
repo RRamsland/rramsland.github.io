@@ -522,7 +522,7 @@ display: none;
 		border: 1px solid rgb(187, 187, 187);
 	}
 }
-@media(max-width: 500px){
+@media(min-width: 500px){
 	.navbar{
 		display:block;
 	}
