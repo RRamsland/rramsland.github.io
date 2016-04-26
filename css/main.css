@@ -49,7 +49,7 @@ display: block;
     margin: 0px;
     padding: 0px;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
     right: 10px;
     top: 10px;
     background: #E1E1E1;
