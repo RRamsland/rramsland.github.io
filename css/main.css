@@ -516,6 +516,9 @@ display: none;
 	.artThumbContainer:hover{
 		box-shadow: none;
 	}
+	.main-content .container {
+    	padding: 0;
+	}
 }
 @media(max-width: 415px){
 	.artThumbContainer {
