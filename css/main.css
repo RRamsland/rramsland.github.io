@@ -505,7 +505,7 @@ display: none;
 
 
 
-@media(max-width:695){
+@media(max-width:695px){
 	.artGallery{
 		font-size:0;
 	}
