@@ -138,7 +138,7 @@ footer .container p{
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px #0095FF;
+    box-shadow: 0 0 5px gray;
 }
 
 .eventTitle {
@@ -149,7 +149,7 @@ footer .container p{
 }
 
 .nodeConnector {
-    background: #0095FF;
+    background: gray;
     opacity: .5;
     width: 7px;
     height: 40px;
