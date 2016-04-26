@@ -80,18 +80,19 @@ width: 20%;
 text-align: center;
 }
 
-.header-nav li a {
-text-decoration: none;
-color: #FAFAFA;
-padding: 4px;
-display: block;
-font-size: 16px;
-white-space: nowrap;
-transition: .4s;
+.nav-link {
+	text-decoration: none;
+	color: #FAFAFA;
+	padding: 4px;
+	display: block;
+	font-size: 16px;
+	white-space: nowrap;
+	transition: .4s;
+	background: #2D77A9;
 }
 
 .nav-link:hover {
-background: #2D77A9;
+	background: #5899C5;
 }
 
 .slider {
@@ -494,12 +495,6 @@ display: none;
 		display:block;
 		width:100%;
 		border: 1px solid rgb(129, 161, 179);
-	}
-	.nav-link{
-		background: #2D77A9;
-	}
-	.nav-link:hover{
-		background: #5899C5;
 	}
 }
 @media(min-width: 500px){
