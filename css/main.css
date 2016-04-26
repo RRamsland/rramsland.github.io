@@ -508,6 +508,20 @@ display: none;
 	}
 }
 
+
+
+@media(max-width:695){
+	.artGallery{
+		font-size:0;
+	}
+	.artThumbContainer{
+		margin: 1px;
+		box-shadow: none;
+	}
+	.artThumbContainer:hover{
+		box-shadow: none;
+	}
+}
 @media(max-width: 415px){
 	.artThumbContainer {
 	    margin: 0px;
@@ -515,6 +529,7 @@ display: none;
 	    height: 105px;
   }
 }
+
 
 /*Utilities*/
 
