@@ -112,18 +112,20 @@ footer .container p{
 }
 
 .contactButton {
-display: inline-block;
-background: rgb(186, 186, 186);
-padding: 0px 14px;
-border-radius: 4px;
-margin: 15px;
-margin-top: 0px;
-text-decoration: none;
-color: rgb(90, 90, 90);
+    display: inline-block;
+    background: #FFF;
+    border-radius: 4px;
+    margin: 0px 15px 15px;
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+    font-size: 14px;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
 }
 
 .contactButton:hover {
-box-shadow: rgb(139, 139, 139) 0px 0px 55px inset;
+    background: #EDEDED;
 }
 
 
