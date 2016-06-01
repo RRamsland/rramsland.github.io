@@ -246,6 +246,37 @@ text-align:center;
   height: auto;
 }
 
+
+
+/*Contact*/
+
+form {
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+input {
+    max-width: 100%;
+    width: 200px;
+}
+
+textarea {
+    max-width: 100%;
+    width: 400px;
+}
+
+.submitContact{
+    display: block;
+    width: 100px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
 @media(max-width: 500px){
 	.menuButton{
 		display:block;
