@@ -4,14 +4,19 @@ layout: default
 ---
 <div class="container">
 	   <h1>Contact</h1>
-	   <form action="mail.php" method="get">
-			<p>Name</p>
-			<input type="text" name="name">
-			<p>Email</p>
-			<input type="text" name="email">
-			<p>Message</p>
-			<textarea name="message" rows="6" cols="25"></textarea>
-			<input type="submit" value="Send"><input type="reset" value="Clear">
+
+		<form action="https://formspree.io/rramsland@gmail.com"
+      method="POST">
+      		<p>Name</p>
+    		<input type="text" name="name">
+    		<p>Email</p>
+    		<input type="email" name="_replyto">
+    		<p>Message</p>
+    		<textarea name="message" rows="6" cols="25"></textarea>
+    		<input type="submit" value="Send">
+    		<input type="hidden" name="_next" value="/" />
+    		<input type="text" name="_gotcha" style="display:none" />
 		</form>
+
  </div>
  
