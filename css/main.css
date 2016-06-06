@@ -282,7 +282,9 @@ textarea {
 		display:block;
 	}
 	header{
-		box-shadow: 0px 0px 5px #ADADAD;
+		/*box-shadow: 0px 0px 5px #ADADAD;*/
+        box-shadow: 0 0 5px #2D77A9;
+        border-bottom: 3px solid #2D77A9;
 	}
 	.navbar{
 		box-shadow: none;
