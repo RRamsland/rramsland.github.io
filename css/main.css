@@ -98,6 +98,7 @@ text-align: center;
 	white-space: nowrap;
 	transition: .4s;
 	background: #2D77A9;
+    font-family: raleway;
 }
 
 .nav-link:hover {
