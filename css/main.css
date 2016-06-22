@@ -296,6 +296,7 @@ textarea {
         box-shadow: 0 0 5px #2D77A9;
         border-bottom: 1px solid #2D77A9;
 	}
+
 	.navbar{
 		box-shadow: none;
 		margin:0 auto;
@@ -307,6 +308,9 @@ textarea {
 		width:100%;
 		border: 1px solid rgb(129, 161, 179);
 	}
+    .header-nav li:last-child {
+    border-bottom: 0;
+    }
 }
 @media(min-width: 500px){
 	.navbar{
