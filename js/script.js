@@ -17,12 +17,14 @@ $(document).ready(function(){
         $(".contentFade").show();
         $(".fullImage").slideDown();
         $(".picTitle").text(imgTitle);
+        $(".picTitle").show();
 
     });
 
     function exitFullscreen(){
         $('.fullImage').slideUp();
         $(".contentFade").hide();
+        $(".picTitle").hide();
     }
 
     $('.fullImage').click(function(){
