@@ -106,6 +106,19 @@ text-align: center;
 	background: #5899C5;
 }
 
+.comingSoon:hover {
+    background: gray;
+}
+
+.comingSoon:hover:before {
+    content: "Coming Soon";
+}
+
+.comingSoon:hover span {
+    display:none;
+}
+
+
 footer {
 background: #2D77A9;
 color: #FAFAFA;
